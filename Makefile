@@ -9,5 +9,5 @@ install: build
 	${PYTHON} setup.py install --prefix ${PREFIX}
 
 clean:
-        ${PYTHON} setup.py clean
-        ${RM} -rf build launchd.c
+	${PYTHON} setup.py clean
+	${RM} -rf build launchd.c
